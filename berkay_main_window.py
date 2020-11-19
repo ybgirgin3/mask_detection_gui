@@ -134,8 +134,7 @@ class MainWindow(QWidget):
 
             # apply non-maxima suppression to suppress weak, overlapping
             # bounding boxes
-            idxs = cv2.dnn.NMSBoxes(boxes, confidences, confidence_arg,
-                threshold_arg)
+            idxs = cv2.dnn.NMSBoxes(boxes, confidences, confidence_arg, threshold_arg)
 
             # ensure at least one detection exists
             if len(idxs) > 0:
@@ -148,10 +147,8 @@ class MainWindow(QWidget):
                     # draw a bounding box rectangle and label on the frame
                     color = [int(c) for c in COLORS[classIDs[i]]]
                     cv2.rectangle(frame, (x, y), (x + w, y + h), color, 2)
-                    text = "{}: {:.4f}".format(LABELS[classIDs[i]],
-                        confidences[i])
-                    cv2.putText(frame, text, (x, y - 5),
-                        cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2)
+                    text = "{}: {:.4f}".format(LABELS[classIDs[i]], confidences[i])
+                    cv2.putText(frame, text, (x, y - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2)
 
             height, width, channel = frame.shape
             step = channel * width
