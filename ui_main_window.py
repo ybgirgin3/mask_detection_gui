@@ -11,7 +11,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_Form(object):
     def setupUi(self, Form):
         Form.setObjectName("Form")
-        Form.resize(525, 386)
+        Form.resize(1024, 500)
         self.horizontalLayout = QtWidgets.QHBoxLayout(Form)
         self.horizontalLayout.setObjectName("horizontalLayout")
         self.verticalLayout = QtWidgets.QVBoxLayout()
@@ -29,6 +29,6 @@ class Ui_Form(object):
 
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
-        Form.setWindowTitle(_translate("Form", "Cam view"))
-        self.image_label.setText(_translate("Form", "TextLabel"))
+        Form.setWindowTitle(_translate("Form", "Mask Detection System Interface"))
+        self.image_label.setText(_translate("Form", " "))
         self.control_bt.setText(_translate("Form", "Start"))
