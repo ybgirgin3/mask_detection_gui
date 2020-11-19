@@ -1,0 +1,9 @@
+*.swp
+__pycache__/
+.venv/
+venv/
+env/
+.env/
+trash/
+.vscode/
+yolo-coco/
