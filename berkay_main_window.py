@@ -1,8 +1,8 @@
 """
 In this example, we demonstrate how to create simple camera viewer using Opencv3 and PyQt5
 
-Author: Berrouba.A
-Last edited: 21 Feb 2018
+Author: Yusuf Berkay Girgin
+Last edited: 20 November 2020
 """
 
 # import system module
