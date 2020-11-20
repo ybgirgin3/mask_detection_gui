@@ -155,6 +155,7 @@ class MainWindow(QWidget):
 
                     elif LABELS[classIDs[i]] in ('none'):
                         self.ui.loggingLabel.setText("Maskesinin düzgün takmayan biri var")
+
                     else:
                         self.ui.loggingLabel.setText("Herkes maskesini düzgün takıyor")
 
