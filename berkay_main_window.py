@@ -150,6 +150,14 @@ class MainWindow(QWidget):
                     text = "{}: {:.4f}".format(LABELS[classIDs[i]], confidences[i])
                     cv2.putText(frame, text, (x, y - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2)
 
+                    if LABELS[classIDs[i]] in ('bad'):
+                        self.ui.loggingLabel.setText("Maskesini takmayan biri var")
+
+                    elif LABELS[classIDs[i]] in ('none'):
+                        self.ui.loggingLabel.setText("Maskesinin düzgün takmayan biri var")
+                    else:
+                        self.ui.loggingLabel.setText("Herkes maskesini düzgün takıyor")
+
             height, width, channel = frame.shape
             step = channel * width
             qImg = QImage(frame.data, width, height, step, QImage.Format_RGB888)
