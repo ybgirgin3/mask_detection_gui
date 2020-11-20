@@ -3,12 +3,11 @@
 
 this is the image of successssss
 
-
-
 <img src="success.png" />
 
 
-
+# yapılanlar
+logging işi için gerekli olan label dinamik olarak eklendi: maske durumlarına gerekli tepkileri veriyor
 
 
 
