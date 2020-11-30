@@ -1,4 +1,5 @@
 *.swp
+appdenemeleri/
 __pycache__/
 .venv/
 venv/
