@@ -1,0 +1,4 @@
+imutils
+numpy
+opencv-python==4.1.2.30
+PyQt5==5.12

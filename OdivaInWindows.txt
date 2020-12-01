@@ -1,0 +1,10 @@
+# windows bilgisayara silent bir şekilde python yüklemek için gerekli olan kod
+# msi ve exe uzantılı olanların komutları farklı
+
+# msi
+	%windir%\system32\msiexec.exe /i “%CD%\python-2.7.11.msi” /qn /norestart
+
+# exe
+	“%CD%\python-3.5.1.exe” /quiet InstallAllUsers=1 PrependPath=1 Include_test=0 TargetDir=c:\Python351
+		ya da
+	“%CD%\python-3.7.0.exe” /quiet InstallAllUsers=1 PrependPath=1 Include_test=0

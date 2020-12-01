@@ -1,0 +1,9 @@
+setup.py
+Odiva.egg-info/PKG-INFO
+Odiva.egg-info/SOURCES.txt
+Odiva.egg-info/dependency_links.txt
+Odiva.egg-info/requires.txt
+Odiva.egg-info/top_level.txt
+source/Odiva.py
+source/__init__.py
+source/ui_main_window.py
