@@ -1,10 +1,9 @@
-# windows bilgisayara silent bir şekilde python yüklemek için gerekli olan kod
-# msi ve exe uzantılı olanların komutları farklı
+####
+### winpython ile python'ı direk olarak yüklemeden kullanmak mümkün 
+####
 
-# msi
-	%windir%\system32\msiexec.exe /i “%CD%\python-2.7.11.msi” /qn /norestart
 
-# exe
-	“%CD%\python-3.5.1.exe” /quiet InstallAllUsers=1 PrependPath=1 Include_test=0 TargetDir=c:\Python351
-		ya da
-	python-3.9.0.exe /quiet InstallAllUsers=1 PrependPath=1 Include_test=0
+[ÖNEMLİ]
+####
+### py2exe ve innosetup kullanarak setup wizard yapmak mümkün fakat windowsda C++ runtime error veriyor :: innosetup üzerinden runtime librarylerin nasıl yüklendiğini bakmam lazım
+####
