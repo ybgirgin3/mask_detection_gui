@@ -7,3 +7,14 @@
 ####
 ### py2exe ve innosetup kullanarak setup wizard yapmak mümkün fakat windowsda C++ runtime error veriyor :: innosetup üzerinden runtime librarylerin nasıl yüklendiğini bakmam lazım
 ####
+
+[ÖNEMLİ 2]
+py2exe ve innosetup için python paketi bulunuyormuş direk setup.py üzerinden işlem halledilebiliyormuş
+	official innosetup tutorial: https://pypi.org/project/innosetup/
+	python setup dosyası örnek repo: https://gist.github.com/stlehmann/23585f7f50005408fc72
+
+
+birkaç tane örnek websitesi:
+	https://stackoverflow.com/questions/10659829/how-to-create-windows-installer-for-pyqt-project/10660263
+	https://stackoverflow.com/questions/24024878/python-wxpython-py2exe-inno-setup-compiler-errno-13-permission-denied-e
+	
