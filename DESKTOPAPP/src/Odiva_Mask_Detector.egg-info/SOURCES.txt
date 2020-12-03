@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/Odiva_Mask_Detector.egg-info/PKG-INFO
+src/Odiva_Mask_Detector.egg-info/SOURCES.txt
+src/Odiva_Mask_Detector.egg-info/dependency_links.txt
+src/Odiva_Mask_Detector.egg-info/requires.txt
+src/Odiva_Mask_Detector.egg-info/top_level.txt

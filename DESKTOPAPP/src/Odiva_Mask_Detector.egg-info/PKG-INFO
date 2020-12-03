@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: Odiva-Mask-Detector
+Version: 0.0.1
+Summary: Implementable Indoor Crowd Mask Detection System
+Home-page: UNKNOWN
+Author: Yusuf Berkay Girgin
+Author-email: ybgirgin3@gmail.com
+License: UNKNOWN
+Description: # setup tools vs işleri python için pip üzerinden paket indirmek istersen işe yarıyor anladığım kadarıyla :: kaynak-> https://stackoverflow.com/questions/25337706/setuptools-vs-distutils-why-is-distutils-still-a-thing
+        
+Platform: UNKNOWN
+Requires-Python: ~=3.7

@@ -20,7 +20,7 @@ setuptools.setup(
             'PyQt5==5.12',
             'numpy==1.19.4'
         ],
-        python_requires='3.7*',
+        python_requires='~=3.7',
 
 
 )

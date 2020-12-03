@@ -1,0 +1,1 @@
+# setup tools vs işleri python için pip üzerinden paket indirmek istersen işe yarıyor anladığım kadarıyla :: kaynak-> https://stackoverflow.com/questions/25337706/setuptools-vs-distutils-why-is-distutils-still-a-thing
