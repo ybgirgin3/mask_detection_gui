@@ -7,6 +7,7 @@
 ####
 ### py2exe ve innosetup kullanarak setup wizard yapmak mümkün fakat windowsda C++ runtime error veriyor :: innosetup üzerinden runtime librarylerin nasıl yüklendiğini bakmam lazım
 ####
+####### -> innosetup programından dolayı mı yoksa windows üzerinden kullandığım pyinstaller ya da py2exe uygulamasından mı kaynaklanıyor bilemiyorum ama numpy hatası veriyor ve program çalışmıyor şu an windows üzerinden
 
 !!!! [aborted] ![ÖNEMLİ 2]
 #### !!! setuptolls üzerinden yükleme işlemi sadece pip üzerinden paketleri import etme muhabbetine girmek istediğin zaman işe yarıyormuş setup.py dosyasına gerek yok anladığım kadarıyla :: kaynak -> https://stackoverflow.com/questions/25337706/setuptools-vs-distutils-why-is-distutils-still-a-thing
