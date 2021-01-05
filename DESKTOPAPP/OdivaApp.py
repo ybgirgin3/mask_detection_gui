@@ -1,6 +1,4 @@
 """
-In this example, we demonstrate how to create simple camera viewer using Opencv3 and PyQt5
-
 Author: Yusuf Berkay Girgin
 Last edited: 20 November 2020
 """

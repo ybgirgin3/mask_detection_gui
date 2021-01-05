@@ -1,0 +1,38 @@
+guide: https://silentinstallhq.com/miniconda-silent-install-how-to-guide/https://silentinstallhq.com/miniconda-silent-install-how-to-guide/
+=====================================
+
+miniconda 64-bit silent install (exe)
+=====================================
+1- download the miniconda3 64-bit installer
+2- run command prompt as a administrator
+3- navigate the downloaded file
+4- enter this command : Miniconda3-latest-Windows-x86_64.exe /InstallationType=AllUsers /RegisterPython=1 /S
+
+
+solution map:
+===============
+1- download exe file from powershell
+  using Invoke-WebRequest : Invoke-WebRequest https://path/to/file.txt -OutFile C:\file.txt
+
+2- run downloaded exe file as admin in windows via python
+  ref 1: run_as_admin_ctypes.py
+  ref 2: run_as_admin_win32com.py
+  1- there is two way to run command in command prompt using python
+    * execute a command and then remain     : os.system('cmd /k "Your Command Prompt Command"')
+    * execute a command and then terminate  : os.system('cmd /c "Your Command Prompt Command"')
+    ref: tkinter_command_runner_gui.py
+
+
+3- required python modules need to be in app folder
+  -- if a newer version in one of these, running could be fail. application need to be isolated for long time running
+  if we want to use comman windows command prompt instead of anaconda prompt
+  we need to link default python which installed in anaconda
+  ❌ python myfile.py
+  ✅ C:\Users\<username>\AppData\Local\Continuum\anaconda3\python.exe myfile.py (for normal user: os.getlogin())
+
+
+Scenario:
+==========
+#### ref: OdivaWindowsInstaller_v0.py
+1- download file with the powershell
+2- run silent in the command prompt as admin
