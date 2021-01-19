@@ -12,6 +12,7 @@ miniconda 64-bit silent install (exe)
 solution map:
 ===============
 1- download exe file from powershell
+  * make .bat script for it
   using Invoke-WebRequest : Invoke-WebRequest https://path/to/file.txt -OutFile C:\file.txt
 
 2- run downloaded exe file as admin in windows via python
@@ -33,6 +34,13 @@ solution map:
 
 Scenario:
 ==========
-#### ref: OdivaWindowsInstaller_v0.py
-1- download file with the powershell
-2- run silent in the command prompt as admin
+
+
+--> pyinstaller üzerinde daha çok araştırma yap
+--> kesin bir çözümü vardır 
+
+
+create a batch file make everythinhg happen
+download .exe file from cmd
+install .exe file from cmd
+run package installer python module from cmd

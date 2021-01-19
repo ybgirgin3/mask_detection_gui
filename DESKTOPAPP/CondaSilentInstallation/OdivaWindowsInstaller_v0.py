@@ -1,17 +1,7 @@
 # download file from powershell# Change this...
 
 import os
-
-# this functions downloads miniconda3 exe file using powershell
 # no root-prev required
-def ps_installer():
-    # download file
-    import subprocess
-
-    url = 'https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe'
-    output = 'miniconda3-latest-x86_64.exe'
-    command = f"Invoke-WebRequest -Uri {url} -OutFile {output}"
-    process = subprocess.Popen(["powershell", command])
 
 
 # this function run miniconda3.exe as admin and silent to install it 
@@ -41,6 +31,26 @@ def install_req_packages():
     # aşağıdaki komutlar bu sebepten değişebilir
     miniconda_base = f'{userprof}\\AppData\\Local\\Continuum\\miniconda3\\conda.exe'
     miniconda_python = f'{userprof}\\AppData\Local\\Continuum\\miniconda3\\python.exe'
+
+
+    # herhangi bir conda env oluşturma işlemi olmayacağından dolayı 
+    # pip kullanmak yerine "python3 -m pip" kullanmak daha mantıklı olabilir
+
+
+    ## /home/berkay/miniconda3/envs/all_/bin/python3 -m pip
+    # linuxte komutunu kullnarak base içindeyken all_ içindeki pip modülüne ulaşabiliyorum
+    # miniconda_python komutunu kullanarak gerekli python yüklemelerini yapabilirim
+
+    
+
+
+
+
+
+
+
+
+
 
 
 
