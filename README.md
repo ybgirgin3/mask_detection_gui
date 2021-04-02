@@ -1,11 +1,6 @@
 # mask_detection_gui
 
 
-this is the image of successssss
-
-<img src="success.png" />
-
-
 
 ## install wizard for windows
 https://www.youtube.com/watch?v=KRMs9z6KoEU
